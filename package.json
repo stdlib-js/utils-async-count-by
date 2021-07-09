@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-async-count-by",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Group values according to an indicator function and return group counts.",
   "license": "Apache-2.0",
   "author": {
