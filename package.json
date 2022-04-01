@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/utils-async-count-by",
+  "version": "0.0.0",
+  "description": "Group values according to an indicator function and return group counts.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-async-count-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "group",
+    "groupby",
+    "group-by",
+    "count",
+    "count-by",
+    "aggregate",
+    "partition",
+    "summarize",
+    "tally",
+    "tabulate",
+    "asynchronous",
+    "async",
+    "split",
+    "array",
+    "collection",
+    "array-like"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
