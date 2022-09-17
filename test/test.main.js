@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var noop = require( '@stdlib/utils-noop' );
-var countByAsync = require( './../lib/count_by.js' );
+var countByAsync = require( './../lib' );
 
 
 // TESTS //
