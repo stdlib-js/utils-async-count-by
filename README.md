@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import countByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async-count-by/tags). For example,
+
+```javascript
 import countByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@v0.2.3-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@esm/index.mjs';
 ```
 
 #### countByAsync( collection, \[options,] indicator, done )
@@ -357,7 +362,7 @@ The function accepts the same `options` as `countByAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import countByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@v0.2.3-esm/index.mjs';
+import countByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-count-by@esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
